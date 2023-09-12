@@ -3,10 +3,34 @@
 /* Exercise 1: Header Styling (5 minutes) */
 /* Style the header section, including background color, text color, and font size. */
 /* classes, ids */
+
 header {
-    background-color: #e2d8d8;
+    width: auto;
+    height: 60px;
+    background-color: #64113f;
+    padding-top: 0;
+    margin-top: 0;
+    top: 0;
+}
+h1 {
+    color: #f1be32;
+    text-align: center;
+}
+nav {
+    background-color: #D3BDB0;
     color: #333;
     font-size: 16px;
+    width: auto;
+    height: 60px;
+    font-size: 20px;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+li {
+    display: block;
 }
     
 /* Exercise 2: Navigation Menu Styling (5 minutes) */
@@ -19,11 +43,19 @@ header {
 .menu a:hover{
     color: rgb(73, 91, 91);
 }
-
+body {
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+img {
+    width: 100%;
+    height: 200px;
+}
 /* Exercise 3: Hero Section Styling (5 minutes) */
 /* Style the hero section, including the background image, text color, and alignment. */
 .hero{
-    color: #333;
+    background-color: #C1AE9F;
     text-align: center;
     padding: 50px;
 }
@@ -31,8 +63,8 @@ header {
 /* Exercise 4: Menu Section Styling (10 minutes) */
 /* Style the menu section, including food item boxes, text color, background color, and spacing. */
 .items{
-    background-color: coral;
-    color: #333;
+    background-color: #23231A;
+    color: #C1AE9F;
     padding: 20px;
     margin: 10px;
     text-align: 50px;
@@ -55,12 +87,16 @@ form input[type="text"],input[type="email"], textarea{
     width: 100%;
     padding: 10px;
     margin: 10px;
+    background-color: #23231A;
+    
 }
-
+.contactUS {
+    background-color: #23231A;
+}
 /* Exercise 7: Footer Styling (5 minutes) */
 /* Style the footer section, including background color, text color, and alignment. */
 footer{
-    background-color: rgb(122, 197, 197);
+    background-color: #071108;
     color: #333;
     text-align: center;
     padding: 20px;
